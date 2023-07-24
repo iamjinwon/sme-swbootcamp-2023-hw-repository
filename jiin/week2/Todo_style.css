@@ -1,0 +1,88 @@
+/*html*/
+
+body {}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+/*header*/
+
+header {
+    margin-top: 50px;
+    text-align:center;
+}
+
+/*title*/
+
+#title {
+    font-size: 50px;
+    margin-top: 50px;
+    color: #FF4040;
+}
+
+/*search*/
+#searchbar {
+    width: 500px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.enterbutton {
+    width: 85px;
+    height: 24px;
+}
+
+/*section*/
+
+/*todobox*/
+
+#todobox {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px; 
+    height: 300px; 
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#todobox li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#todobox li p {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#todobox li button {
+    width: 60px;
+    height: 25px;
+}
+
+#todobox li button:last-child {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*runbutton*/
+
+#runbutton {
+    margin-left: 635px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#runbutton button {
+    height: 30px;
+}

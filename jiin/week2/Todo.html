@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="Todo_style.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="title">Todo List</h1>
+            <form action="">
+                <input id="searchbar" type="text" placeholder="할 일을 입력하세요."> <!--text 입력창 만들기-->
+                <button class="enterbutton">Enter</button> <!--Enter 버튼 만들기-->
+            </form>
+        </header>
+        <section> <!--JS 기능을 어떻게 입힐지 생각해보기-->
+            <div id="todobox">
+                <ul> 
+                </ul>
+            </div>
+            <div id="runbutton">
+            <li>
+                <button id="selectall">전체 선택</button>
+                <button id="alloff">전체 해제</button>
+                <button id="delselection">선택 삭제</button>
+                <button id="deleteall">전체 삭제</button>
+            </li>
+            </div>
+        </section>
+        <script src="Todo.js"></script>
+    </body>
