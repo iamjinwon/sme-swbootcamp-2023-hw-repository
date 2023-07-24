@@ -1,0 +1,488 @@
+header {
+    background-color: rgb(39, 136, 234);
+    width: 100%;
+    height: 50px;
+}
+
+#sidebar {
+    width: 16%;
+    background-color: #f7f7f7;
+    float: left;
+    border-right-width: 1px;
+    border-right-color: rgba(209, 207, 207, 0.575);
+    border-right-style: solid;
+}
+
+#first_icon {
+    width: 48px;
+    height: 48px;
+    border-style: none;
+    background-color: rgb(39, 136, 234);
+}
+
+#first_icon:hover {
+    background-color: rgba(21, 83, 145, 0.729);
+}
+
+#third_icon {
+    width: 48px;
+    height: 48px;
+    border-style: none;
+    background-color: rgb(39, 136, 234);
+    float: right;
+}
+
+#third_icon:hover {
+    background-color: rgba(21, 83, 145, 0.729);
+}
+
+#onedrive {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 58px;
+    top: 14px;
+    font-size: 15px;
+}
+
+#second_icon {
+    width: 46px;
+    height: 32px;
+    border-style: none;
+    margin-bottom: 0px;
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.first_flex {
+    display: flex;
+}
+
+#searchgo {
+    position: absolute;
+    top: 9px;
+    left: 480px;
+}
+
+#searchIcon {
+    position: absolute;
+    left: 19px;
+    height: 15.36px;
+    width: 15.36px;
+}
+
+#searchbar {
+    border-radius: 4px;
+    border-width: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 424px;
+    height: 32px;
+    font-size: smaller;
+    outline: none;
+}
+
+
+#icon2 {
+    float: right;
+    margin: 15px;
+}
+
+#icon3 {
+    float: right;
+    margin: 15px;
+
+}
+
+#icon4 {
+    float: right;
+    margin: 10px;
+
+}
+
+#icon5 {
+    float: right;
+    margin: 15px;
+
+}
+
+#name {
+    margin: 20px;
+    font-size: 15px;
+}
+
+#clock {
+    width: 16px;
+    height: 16px;
+}
+
+.side_container1 {
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.side_container2 {
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.side_container3 {
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.side_container4 {
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.side_container5 {
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item:nth-child(1) {
+    margin-left: 15px;
+}
+
+.item:nth-child(2) {
+    margin-left: 15px;
+}
+
+.side_container1:hover {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+}
+
+.side_container1:active {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    font-weight: bold;
+    /*약간 구현이 부족한 부분*/
+}
+
+.side_container2:active {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    font-weight: bold;
+    /*약간 구현이 부족한 부분*/
+}
+
+.side_container3:active {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    font-weight: bold;
+    /*약간 구현이 부족한 부분*/
+}
+
+.side_container4:active {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    font-weight: bold;
+    /*약간 구현이 부족한 부분*/
+}
+
+.side_container5:active {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    font-weight: bold;
+    /*약간 구현이 부족한 부분*/
+}
+
+.side_container2:hover {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+}
+
+.side_container3:hover {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+}
+
+.side_container4:hover {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+}
+
+.side_container5:hover {
+    background-color: #bababa85;
+    color: rgb(39, 136, 234);
+    margin: auto 2px;
+    border-radius: 3px;
+}
+
+#icon6 {
+    color: black;
+}
+
+#icon7 {
+    color: black;
+}
+
+#icon8 {
+    color: black;
+}
+
+#icon9 {
+    color: black;
+}
+
+#icon10 {
+    color: black;
+}
+
+#buttonspan {
+    margin: 13px;
+}
+
+#premium {
+    box-sizing: border-box;
+    border-color: rgba(130, 129, 129, 0.158);
+    border-radius: 5px;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    background-color: white;
+    width: 200px;
+    height: 44px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 112, 212);
+}
+
+#premium:hover {
+    background-color: #bbbbbb63;
+}
+
+#premiumicon {
+    font-size: 18px;
+}
+
+.bt1 {
+    margin-left: 4px;
+}
+
+.footerbar1 {
+    margin-left: 15px;
+    font-size: 13.5px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.footerbar2 {
+    border-width: 0px;
+    border-top-color: rgba(152, 150, 150, 0.374);
+    border-top-width: 2px;
+    border-style: solid;
+    margin-left: 15px;
+    font-size: 11px;
+    color: rgb(12, 109, 206);
+    margin-bottom: 13px;
+    margin-right: 15px;
+}
+
+.footerbar3 {
+    margin-left: 15px;
+    font-size: 13.5px;
+    margin-bottom: 13px;
+}
+
+#forcolor {
+    color: rgb(1, 63, 125);
+}
+
+#first {
+    height: 468px;
+}
+
+#contents {
+    float: left;
+    width: 84%;
+    height: 697px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+#top_bar {
+    height: 60px;
+}
+
+#command_bar {
+    padding: 6px 24px 6px 24px;
+}
+
+#focus_zone {
+    height: 48px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(209, 207, 207, 0.575);
+}
+
+#image_bar {
+    height: 270px;
+    padding: 56px 32px 20px 32px;
+}
+
+#real_image_bar {
+    height: 214px;
+}
+
+#word_tab {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+#focus_zone2 {
+    display: flex;
+}
+
+.realflex {
+    width: 260px;
+    height: 170px;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+#realflex1 {
+    background-color: white;
+    margin-right: 23px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(209, 207, 207, 0.575);
+    box-shadow: -1px 1px 4px rgba(209, 207, 207, 0.575);
+    position: relative;
+    cursor: pointer;
+}
+
+#computerimg {
+    margin: 16px 30px 64px;
+}
+
+#text_tab {
+    padding: 14px 52px 14px 16px;
+    width: 260px;
+    height: 64px;
+    position: absolute;
+    bottom: 1px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#realflex2 {
+    background-image: url("airplane.jpg");
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(209, 207, 207, 0.575);
+    box-shadow: -1px 1px 4px rgba(209, 207, 207, 0.575);
+    position: relative;
+    cursor: pointer;
+}
+
+#realflex1:hover {
+    box-shadow: -2px 2px 2px rgba(209, 207, 207, 0.575);
+}
+
+#realflex2:hover {
+    box-shadow: -2px 2px 2px rgba(209, 207, 207, 0.575);
+}
+
+#text_tab2 {
+    padding: 14px 52px 14px 16px;
+    width: 260px;
+    height: 64px;
+    position: absolute;
+    bottom: 1px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.second_tab {
+    padding: 56px 32px 20px;
+}
+
+.third_tab {
+    padding: 0px 32px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(209, 207, 207, 0.575);
+    box-shadow: -1px 1px 4px rgba(209, 207, 207, 0.575);
+    border-radius: 6px;
+}
+
+.files {
+    display: flex;
+    width: 48px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+}
+
+.division {
+    display: flex;
+}
+
+#margin {
+    margin-right: 8px;
+}
+
+.droplists {
+    padding: 0px 8px 0px 12px;
+    display: flex;
+    align-items: center;
+    width: 317px;
+
+}
